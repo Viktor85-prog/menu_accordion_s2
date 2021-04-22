@@ -1,0 +1,43 @@
+*, 
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+
+}
+
+.accordion-item_active .accordion-item_content {
+    display: block;
+    background-color: grey;
+
+}
+.accordion-item_active .accordion-item_trigger {
+    background-color: grey;
+
+}
+.accordion-item_trigger {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.accordion-item_content {
+    padding: 20px;
+    border: 1px solid black;
+    border-top: none;
+    display: none;
+}
+
+
